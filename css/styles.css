@@ -131,8 +131,8 @@ a:hover {
 .background {
   background-attachment: fixed;
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  background-repeat: repeat-x;
+  background-size: contain; }
 
 @media screen and (min-width: 1025px) and (max-width: 1920px) {
   #tagline {
@@ -140,7 +140,7 @@ a:hover {
     top: 50vh;
     font-size: 28px; }
   #head {
-    background-color: aqua;
+    background-image: url(../img/asteroids.jpg);
     position: absolute;
     top: 1vh;
     width: 100%;
@@ -442,6 +442,8 @@ a:hover {
   #rebel {
     top: 11vh;
     height: 11vh; }
+  #fox {
+    z-index: 1; }
   #footer {
     background-color: #222;
     position: absolute;
