@@ -1,0 +1,15 @@
+/*pull*/
+
+.w3-animate-top{
+    position:relative;
+    animation:animatetop 2s}
+@keyframes animatetop{
+    from{top:-800px;opacity:1}
+    to{top:0;opacity:1}}
+
+.w3-animate-bottom{
+    position:relative;
+    animation:animatebottom 2s}
+@keyframes animatebottom{
+    from{bottom:-800px;opacity:1}
+    to{bottom:0;opacity:1}}

@@ -1,0 +1,63 @@
+body{
+    background-color: #9e3f4d;
+}
+.no-desktop{
+    display: none;
+}
+#banner{
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    top: 6vh;
+    left: 45vw;
+}
+#heading{
+    font-size: 26px;
+    top: 23vh;
+    position: absolute;
+    left: 20vw;
+        
+}
+.container{
+    display: none;
+}  
+#logo{
+    display: none;
+}
+#skills3{
+    margin: 0 40px 0 40px;
+}
+.Adobe{
+    width: 22vw;
+    background-color: #b76e79;
+    border-radius: 13px;
+    height: auto;
+    position: relative;
+    left: 5vw;
+    display: inline-block;
+}
+.code{
+    width: 22vw;
+    background-color: #b76e79;
+    border-radius: 13px;
+    height: auto;
+    position: relative;
+    right: -5vw;
+    display: inline-block;
+}
+    /*footer*/
+.contact{
+    width: 3%;
+    height: auto;
+    display: inline-block;
+}
+#footer{
+    background-color: #222;
+    position: absolute;
+    top: 90vh;
+    height: 20vh;
+    width: 100%;
+}
+.about-me{
+    margin: 0 40px 20px 40px;
+}

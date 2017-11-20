@@ -1,0 +1,203 @@
+@import "base.scss";
+@import "nav.scss";
+/*body starts here*/
+.background{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (min-width:1025px) and (max-width:1920px){
+#tagline{
+    position: relative;
+    top: 50vh;
+    font-size: 28px;
+}
+#head{
+    background-color: aqua;
+    position: absolute;
+    top: 1vh;
+    width: 100%;
+    height: 110vh;
+}
+#me{
+    width: 25vw;
+    height: 50vh;
+    position: relative;
+    left: 65vw;
+    border-radius: 100%;
+    top: 25vh;
+    -webkit-box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
+}
+.mySlides {
+    display:none;
+}
+.no-mobile{
+    display: none;
+}
+#heading{
+    display: none;
+}
+#banner{
+    display: none;    
+}
+.poster{
+    widths: 100%;
+    height: auto;
+}
+.container{
+    top: -1vh;
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+@import "history.scss";
+
+/*skill columns*/
+#talents{
+    top: 245vh;
+    background-color: #9e3f4d;
+    width: 100%;
+    height: 150vh;
+    position: absolute;
+    z-index: -2;
+}
+#skills-left{
+    width: 20vw;
+    height: 62vh;
+    border-radius: 15px;
+    background: #b76e79;
+    position: absolute;
+    top: 70vh;
+    left: 5vw;
+    display: inline-block;
+    -webkit-box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
+}
+#link-left{
+    background: #222;
+    width: 18vw;
+    height: 0.7vh;
+    top: 80vh;
+    position: absolute;
+    left: 25vw;
+}
+#skills-middle{
+    width: 20vw;
+    height: 50vh;
+    border-radius: 15px;
+    background: #b76e79;
+    position: absolute;
+    top: 77vh;
+    left: 40vw;
+    -webkit-box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
+}
+#link-right{
+    background: #222;
+    width: 18vw;
+    height: 0.7vh;
+    top: 120vh;
+    position: absolute;
+    right: 22vw;
+}
+#skills-right{
+    width: 20vw;
+    height: 62vh;
+    border-radius: 15px;
+    background: #b76e79;
+    position: absolute;
+    top: 70vh;
+    left: 74vw;
+    -webkit-box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
+}
+#skills-me{
+    font-size: 24px;
+    font-family: 'Audiowide', cursive;
+    text-align: center;
+    position: relative;
+    top: 20vh;
+}
+.Adobe{
+    width: 10vw;
+    height: 10vh;
+    position: relative;
+    left: 5vw;
+}
+#title2{
+    width: 100%;
+    height: 7vh;
+    position: absolute;
+    top: 240vh;
+    z-index: 1;
+    background-color: rgb(121, 60, 69);
+ }
+#skills-header{
+    font-family: 'Audiowide', cursive;
+    font-size: 32px;
+    position: relative;
+    top: 1vh;
+    margin-left: 28vw;
+    margin-right: 2vw;
+}
+#skills{
+    position: relative;
+    top: 17vh;
+    font-family: 'PT Mono', monospace;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+#skills2{
+    position: relative;
+    top: 20vh;
+    font-family: 'PT Mono', monospace;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 2vh;
+    
+}
+#Ps{
+    margin-top: 2vh;
+}
+#Ai{
+    margin-top: 4vh;
+}
+#Pr{
+    margin-top: 6vh;
+}
+#Ae{
+    margin-top: 7vh;
+}
+.code{
+    width: 10vw;
+    height: 10vh;
+    position: relative;
+    right: -5vw;
+}
+#html{
+    margin-top: 2vh;
+}
+#css{
+    margin-top: 4vh;
+}
+#js{
+    margin-top: 6vh;
+}
+#php{
+    margin-top: 7vh;
+}
+@import 'portfolio.scss';
+@import 'footer.scss';
+}
+
+/*mobile version*/
+@media screen and (min-width:180px) and (max-width:1050px){
+    @import "mobile.scss";
+}
