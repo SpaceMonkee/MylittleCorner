@@ -541,6 +541,7 @@ a:hover {
     height: 40vh;
     background-color: #6e9db7;
     position: relative;
+    padding-bottom: 2vh;
     top: 5vh;
     margin: 2% 10%;
     -webkit-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
@@ -580,7 +581,7 @@ a:hover {
     position: relative;
     top: 5vh; }
   .textbox-mobile {
-    margin: 2% 4%; }
+    margin: 2vw 4vh; }
   #mobile-me {
     border-radius: 100%;
     background-color: white;
@@ -589,7 +590,6 @@ a:hover {
     position: relative;
     top: 4vh;
     left: 22vw;
-    z-index: 1;
     -webkit-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75); }
@@ -602,7 +602,17 @@ a:hover {
     top: 1;
     display: none; }
   #mobile-space {
-    position: relative; }
+    border-radius: 100%;
+    background-color: white;
+    height: 45vh;
+    width: 45vh;
+    position: relative;
+    top: 6vh;
+    left: 22vw;
+    z-index: 1;
+    -webkit-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75); }
   .container {
     display: none; }
   #logo {
@@ -653,7 +663,7 @@ a:hover {
     margin-left: 2vw; }
   #hobbies-mobile {
     width: 80vw;
-    height: 50vh;
+    height: 70vh;
     background-color: #6e9db7;
     position: relative;
     top: 8vh;
@@ -661,6 +671,14 @@ a:hover {
     -webkit-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75); }
+  #hobby-mobile {
+    width: 100%;
+    position: relative; }
+  .hobbies-mobile {
+    position: relative;
+    width: 17vw;
+    height: auto;
+    margin-left: 2vw; }
   /*footer*/
   .contact {
     width: 14vw;
