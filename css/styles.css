@@ -536,17 +536,38 @@ a:hover {
     background-color: #9e3f4d; }
   .no-desktop {
     display: none; }
-  #banner {
-    width: 100vw;
-    height: auto;
+  #mobile-head {
+    width: 80vw;
+    height: 40vh;
+    background-color: #b76e79;
     position: absolute;
-    top: 6vh;
-    left: 45vw; }
+    top: 5vh;
+    margin: 2% 10%; }
   #heading {
+    font-size: 18px;
+    top: 5vh;
+    position: relative;
+    left: 5vw;
+    width: 70vw;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; }
+  #name {
+    font-size: 3em;
+    top: 6vh;
+    position: relative;
+    left: 5vw;
+    width: 70vw;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: orange; }
+  #job {
     font-size: 26px;
-    top: 23vh;
-    position: absolute;
-    left: 20vw; }
+    top: 8vh;
+    position: relative;
+    left: 5vw;
+    width: 70vw;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; }
   .container {
     display: none; }
   #logo {
@@ -571,14 +592,22 @@ a:hover {
     display: inline-block; }
   /*footer*/
   .contact {
-    width: 3%;
+    width: 10vw;
     height: auto;
     display: inline-block; }
   #footer {
+    border-top: orange solid 2px;
     background-color: #222;
     position: absolute;
     top: 90vh;
-    height: 20vh;
+    height: 10vh;
     width: 100%; }
+  #holder {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    left: 27vw;
+    top: 2vh; }
   .about-me {
     margin: 0 40px 20px 40px; } }
