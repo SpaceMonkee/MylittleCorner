@@ -47,7 +47,7 @@ table {
 
 nav {
   background-color: #222;
-  border-bottom: 2px solid #9E579D;
+  border-bottom: 2px solid #ff9d00;
   position: fixed;
   top: 0;
   width: 100%;
@@ -140,7 +140,7 @@ a:hover {
     top: 50vh;
     font-size: 28px;
     font-family: 'Montserrat', sans-serif;
-    background-color: white;
+    background-color: #ff9d00;
     width: 20vw;
     margin-left: 4vw;
     -webkit-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
@@ -196,7 +196,7 @@ a:hover {
     position: absolute;
     top: 100vh;
     z-index: 1;
-    background-color: #793c45; }
+    background-color: #ff9d00; }
   #history-header {
     position: relative;
     font-family: 'Audiowide', cursive;
@@ -313,7 +313,7 @@ a:hover {
     position: absolute;
     top: 240vh;
     z-index: 1;
-    background-color: #793c45; }
+    background-color: #ff9d00; }
   #skills-header {
     font-family: 'Audiowide', cursive;
     font-size: 32px;
@@ -367,7 +367,7 @@ a:hover {
     position: absolute;
     top: 390vh;
     z-index: 1;
-    background-color: #793c45; }
+    background-color: #ff9d00; }
   #port-header {
     font-family: 'Audiowide', cursive;
     font-size: 32px;
@@ -464,12 +464,12 @@ a:hover {
     height: 57vh;
     width: 100%; }
   #holder {
-    width: 15vw;
+    width: 10vw;
     height: auto;
     position: relative;
     display: inline-block;
     left: 6vw;
-    top: 10vh; }
+    top: 5vh; }
   .contact {
     width: 6vw;
     height: auto;
@@ -482,7 +482,7 @@ a:hover {
     width: 30vw;
     height: auto;
     left: 60vw;
-    top: -18vh;
+    top: -40vh;
     background-color: #484848; }
   .bottom-contact_container {
     color: white; }
