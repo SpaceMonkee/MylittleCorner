@@ -129,12 +129,12 @@ a:hover {
 
 /*body starts here*/
 .background {
-  background-attachment: fixed;
-  background-position: center;
   background-repeat: repeat-x;
   background-size: contain; }
 
 @media screen and (min-width: 1025px) and (max-width: 1920px) {
+  .parallax-window {
+    background: transparent; }
   #tagline {
     position: relative;
     top: 50vh;
@@ -147,7 +147,6 @@ a:hover {
     -moz-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75); }
   #head {
-    background-image: url(../img/asteroids.jpg);
     position: absolute;
     top: 1vh;
     width: 100%;
@@ -183,20 +182,14 @@ a:hover {
     position: absolute;
     top: 105vh;
     width: 100%;
-    height: 135vh;
-    background: #3f7d9e;
-    background-image: url(../img/back1.png);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: repeat-x;
-    background-size: cover; }
+    height: 135vh; }
   #title1 {
     width: 100%;
     height: 7vh;
     position: absolute;
     top: 100vh;
     z-index: 1;
-    background-color: #ff9d00; }
+    background-color: #c77c03; }
   #history-header {
     position: relative;
     font-family: 'Audiowide', cursive;
@@ -204,6 +197,13 @@ a:hover {
     top: 1vh;
     margin-left: 18vw;
     margin-right: 2vw; }
+  #space {
+    height: 15vh;
+    width: auto;
+    position: absolute;
+    top: 5vh;
+    left: 44vw;
+    z-index: 2; }
   #timespine {
     height: 120vh;
     width: 0.7vw;
@@ -242,17 +242,14 @@ a:hover {
   /*skill columns*/
   #talents {
     top: 245vh;
-    background-color: #9e3f4d;
     width: 100%;
     height: 150vh;
-    position: absolute;
-    z-index: -2;
-    background-image: url(../img/back2.png); }
+    position: absolute; }
   #skills-left {
     width: 20vw;
     height: 62vh;
     border-radius: 15px;
-    background: #b76e79;
+    background: #6e9db7;
     position: absolute;
     top: 70vh;
     left: 5vw;
@@ -271,7 +268,7 @@ a:hover {
     width: 20vw;
     height: 50vh;
     border-radius: 15px;
-    background: #b76e79;
+    background: #6e9db7;
     position: absolute;
     top: 77vh;
     left: 40vw;
@@ -289,7 +286,7 @@ a:hover {
     width: 20vw;
     height: 62vh;
     border-radius: 15px;
-    background: #b76e79;
+    background: #6e9db7;
     position: absolute;
     top: 70vh;
     left: 74vw;
@@ -313,7 +310,7 @@ a:hover {
     position: absolute;
     top: 240vh;
     z-index: 1;
-    background-color: #ff9d00; }
+    background-color: #c77c03; }
   #skills-header {
     font-family: 'Audiowide', cursive;
     font-size: 32px;
@@ -359,15 +356,14 @@ a:hover {
     top: 395vh;
     width: 100%;
     height: 150vh;
-    position: absolute;
-    background-color: darksalmon; }
+    position: absolute; }
   #title3 {
     width: 100%;
     height: 7vh;
     position: absolute;
     top: 390vh;
     z-index: 1;
-    background-color: #ff9d00; }
+    background-color: #c77c03; }
   #port-header {
     font-family: 'Audiowide', cursive;
     font-size: 32px;
@@ -389,7 +385,7 @@ a:hover {
     box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75); }
   #interest {
     position: relative;
-    background-color: darkviolet;
+    background-color: #6e9db7;
     border-radius: 15px 0px 0px 15px;
     left: 10vw;
     width: 30vw;
@@ -458,7 +454,7 @@ a:hover {
   #fox {
     z-index: 1; }
   #footer {
-    background-color: #222;
+    background-color: #0d3842;
     position: absolute;
     top: 510vh;
     height: 57vh;
@@ -483,7 +479,7 @@ a:hover {
     height: auto;
     left: 60vw;
     top: -40vh;
-    background-color: #484848; }
+    background-color: #1e8ea6; }
   .bottom-contact_container {
     color: white; }
   .subfooter_container h2 {

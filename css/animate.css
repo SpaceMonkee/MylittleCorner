@@ -1,20 +1,42 @@
+/*pull*/
 .w3-animate-top {
   position: relative;
-  -webkit-animation: animatetop 0.4s;
-  animation: animatetop 0.4s; }
+  -webkit-animation: animatetop 2s;
+  animation: animatetop 2s; }
 
 @-webkit-keyframes animatetop {
   from {
-    top: -300px;
-    opacity: 0; }
+    top: -800px;
+    opacity: 1; }
   to {
     top: 0;
     opacity: 1; } }
 
 @keyframes animatetop {
   from {
-    top: -300px;
-    opacity: 0; }
+    top: -800px;
+    opacity: 1; }
   to {
     top: 0;
+    opacity: 1; } }
+
+.w3-animate-bottom {
+  position: relative;
+  -webkit-animation: animatebottom 2s;
+  animation: animatebottom 2s; }
+
+@-webkit-keyframes animatebottom {
+  from {
+    bottom: -800px;
+    opacity: 1; }
+  to {
+    bottom: 0;
+    opacity: 1; } }
+
+@keyframes animatebottom {
+  from {
+    bottom: -800px;
+    opacity: 1; }
+  to {
+    bottom: 0;
     opacity: 1; } }

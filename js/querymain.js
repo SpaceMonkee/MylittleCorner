@@ -42,3 +42,9 @@ $(window).scroll(function() {
     $('nav').removeClass('shrink');
   }
 });
+
+//parralax
+
+$(document).ready(function(){
+      $('.parallax').parallax();
+    });
