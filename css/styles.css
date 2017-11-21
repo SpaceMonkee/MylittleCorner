@@ -571,11 +571,21 @@ a:hover {
     width: 70vw;
     text-align: center;
     font-family: 'Montserrat', sans-serif; }
+  .about-me {
+    left: 15vw;
+    margin-top: 6%;
+    width: 70vw;
+    height: 30vh;
+    background-color: #6e9db7;
+    position: relative;
+    top: 5vh; }
+  .textbox-mobile {
+    margin: 2% 4%; }
   #mobile-me {
     border-radius: 100%;
     background-color: white;
-    height: 35vh;
-    width: 35vh;
+    height: 25vh;
+    width: 25vh;
     position: relative;
     top: 4vh;
     left: 22vw;
@@ -599,6 +609,18 @@ a:hover {
     display: none; }
   #skills3 {
     margin: 0 40px 0 40px; }
+  #logo-mobile {
+    border-radius: 100%;
+    background-color: white;
+    height: 35vh;
+    width: 35vh;
+    position: relative;
+    top: 4vh;
+    left: 22vw;
+    z-index: 1;
+    -webkit-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75); }
   .Adobe {
     position: relative;
     width: 35vw;
@@ -629,6 +651,16 @@ a:hover {
     width: 35vw;
     height: auto;
     margin-left: 2vw; }
+  #hobbies-mobile {
+    width: 80vw;
+    height: 50vh;
+    background-color: #6e9db7;
+    position: relative;
+    top: 8vh;
+    margin: 2% 10%;
+    -webkit-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75); }
   /*footer*/
   .contact {
     width: 14vw;
@@ -647,14 +679,4 @@ a:hover {
     position: relative;
     display: inline-block;
     left: 20vw;
-    top: 0.5vh; }
-  .about-me {
-    left: 15vw;
-    margin-top: 6%;
-    width: 70vw;
-    height: 30vh;
-    background-color: #6e9db7;
-    position: relative;
-    top: 5vh; }
-  .textbox-mobile {
-    margin: 2% 4%; } }
+    top: 0.5vh; } }
