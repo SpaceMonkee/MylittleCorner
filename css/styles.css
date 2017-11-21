@@ -533,14 +533,14 @@ a:hover {
 /*mobile version*/
 @media screen and (min-width: 180px) and (max-width: 1050px) {
   body {
-    background-color: #9e3f4d; }
+    background-color: #3f7d9e; }
   .no-desktop {
     display: none; }
   #mobile-head {
     width: 80vw;
     height: 40vh;
-    background-color: #b76e79;
-    position: absolute;
+    background-color: #6e9db7;
+    position: relative;
     top: 5vh;
     margin: 2% 10%;
     -webkit-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
@@ -576,9 +576,10 @@ a:hover {
     background-color: white;
     height: 35vh;
     width: 35vh;
-    position: absolute;
-    top: 50vh;
+    position: relative;
+    top: 4vh;
     left: 22vw;
+    z-index: 1;
     -webkit-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75); }
@@ -586,9 +587,10 @@ a:hover {
     width: 2vw;
     height: 100%;
     background-color: white;
-    position: fixed;
+    position: absolute;
     left: 1vw;
-    top: 1; }
+    top: 1;
+    display: none; }
   #mobile-space {
     position: relative; }
   .container {
@@ -598,21 +600,35 @@ a:hover {
   #skills3 {
     margin: 0 40px 0 40px; }
   .Adobe {
-    width: 22vw;
-    background-color: #b76e79;
-    border-radius: 13px;
-    height: auto;
     position: relative;
-    left: 5vw;
-    display: inline-block; }
+    width: 35vw;
+    height: auto;
+    margin-left: 2vw; }
+  #adobe-mobile {
+    width: 80vw;
+    height: 50vh;
+    background-color: #6e9db7;
+    position: relative;
+    top: 8vh;
+    margin: 2% 10%;
+    -webkit-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75); }
+  #html-mobile {
+    width: 80vw;
+    height: 50vh;
+    background-color: #6e9db7;
+    position: relative;
+    top: 8vh;
+    margin: 2% 10%;
+    -webkit-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75); }
   .code {
-    width: 22vw;
-    background-color: #b76e79;
-    border-radius: 13px;
-    height: auto;
     position: relative;
-    right: -5vw;
-    display: inline-block; }
+    width: 35vw;
+    height: auto;
+    margin-left: 2vw; }
   /*footer*/
   .contact {
     width: 14vw;
@@ -633,4 +649,12 @@ a:hover {
     left: 20vw;
     top: 0.5vh; }
   .about-me {
-    margin: 0 40px 20px 40px; } }
+    left: 15vw;
+    margin-top: 6%;
+    width: 70vw;
+    height: 30vh;
+    background-color: #6e9db7;
+    position: relative;
+    top: 5vh; }
+  .textbox-mobile {
+    margin: 2% 4%; } }
