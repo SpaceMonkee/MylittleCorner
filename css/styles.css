@@ -582,6 +582,15 @@ a:hover {
     -webkit-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75); }
+  #sidenav {
+    width: 2vw;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    left: 1vw;
+    top: 1; }
+  #mobile-space {
+    position: relative; }
   .container {
     display: none; }
   #logo {
@@ -612,7 +621,7 @@ a:hover {
   #footer {
     border-top: orange solid 2px;
     background-color: #222;
-    position: absolute;
+    position: fixed;
     top: 90vh;
     height: 10vh;
     width: 100%; }
