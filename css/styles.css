@@ -581,7 +581,8 @@ a:hover {
     position: relative;
     top: 5vh; }
   .textbox-mobile {
-    margin: 2vw 4vh; }
+    margin: 4% 2%;
+    position: relative; }
   #mobile-me {
     border-radius: 100%;
     background-color: white;
@@ -663,7 +664,7 @@ a:hover {
     margin-left: 2vw; }
   #hobbies-mobile {
     width: 80vw;
-    height: 70vh;
+    height: 60vh;
     background-color: #6e9db7;
     position: relative;
     top: 8vh;
@@ -679,6 +680,32 @@ a:hover {
     width: 17vw;
     height: auto;
     margin-left: 2vw; }
+  #port-mobile {
+    width: 80vw;
+    height: 90vh;
+    background-color: #6e9db7;
+    position: relative;
+    top: 8vh;
+    margin: 2% 10%;
+    -webkit-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75); }
+  #speed-mobile {
+    position: relative;
+    width: 60vw;
+    height: auto;
+    left: 10vw;
+    top: 2vh; }
+  #port-pic {
+    width: 80vw;
+    height: 60vh;
+    position: relative;
+    left: 9.5vw;
+    top: 4vh; }
+  .pic-port {
+    width: 30vw;
+    height: auto;
+    position: relative; }
   /*footer*/
   .contact {
     width: 14vw;
