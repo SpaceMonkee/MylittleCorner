@@ -134,7 +134,8 @@ a:hover {
 
 @media screen and (min-width: 1025px) and (max-width: 1920px) {
   .parallax-window {
-    background: transparent; }
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.3); }
   #tagline {
     position: relative;
     top: 50vh;
@@ -158,6 +159,18 @@ a:hover {
     left: 65vw;
     border-radius: 100%;
     top: 25vh;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75); }
+  #skill-me {
+    width: 13vw;
+    height: auto;
+    position: relative;
+    left: 3.5vw;
+    border-radius: 100%;
+    top: 2vh;
+    background-color: white;
     -webkit-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75); }
@@ -266,11 +279,11 @@ a:hover {
     left: 25vw; }
   #skills-middle {
     width: 20vw;
-    height: 50vh;
+    height: 62vh;
     border-radius: 15px;
     background: #6e9db7;
     position: absolute;
-    top: 77vh;
+    top: 70vh;
     left: 40vw;
     -webkit-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
@@ -298,7 +311,7 @@ a:hover {
     font-family: 'Audiowide', cursive;
     text-align: center;
     position: relative;
-    top: 20vh; }
+    top: 5vh; }
   .Adobe {
     width: 10vw;
     height: 10vh;
@@ -385,7 +398,7 @@ a:hover {
     box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75); }
   #interest {
     position: relative;
-    background-color: #6e9db7;
+    background-color: white;
     border-radius: 15px 0px 0px 15px;
     left: 10vw;
     width: 30vw;
@@ -396,7 +409,7 @@ a:hover {
     box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75); }
   #hobby {
     position: relative;
-    background-color: silver;
+    background-color: #6e9db7;
     border-radius: 0px 0px 15px 0px;
     left: 40vw;
     width: 45vw;
@@ -457,17 +470,17 @@ a:hover {
     background-color: #0d3842;
     position: absolute;
     top: 510vh;
-    height: 57vh;
+    height: 45vh;
     width: 100%; }
   #holder {
     width: 10vw;
-    height: auto;
+    height: 5vh;
     position: relative;
     display: inline-block;
-    left: 6vw;
-    top: 5vh; }
+    left: 25vw;
+    top: 15vh; }
   .contact {
-    width: 6vw;
+    width: 4vw;
     height: auto;
     display: inline-block; }
   .bottom-contact_container {
@@ -475,11 +488,14 @@ a:hover {
     padding: 0vw 2vw;
     color: white;
     position: relative;
-    width: 30vw;
+    width: 25vw;
     height: auto;
-    left: 60vw;
-    top: -40vh;
-    background-color: #1e8ea6; }
+    left: 50vw;
+    top: -13vh;
+    background-color: #1e8ea6;
+    -webkit-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75); }
   .bottom-contact_container {
     color: white; }
   .subfooter_container h2 {
@@ -626,9 +642,8 @@ a:hover {
     height: 35vh;
     width: 35vh;
     position: relative;
-    top: 4vh;
+    top: 7vh;
     left: 22vw;
-    z-index: 1;
     -webkit-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75); }
@@ -667,14 +682,15 @@ a:hover {
     height: 60vh;
     background-color: #6e9db7;
     position: relative;
-    top: 8vh;
+    top: 10vh;
     margin: 2% 10%;
     -webkit-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75); }
   #hobby-mobile {
     width: 100%;
-    position: relative; }
+    position: relative;
+    top: -1vh; }
   .hobbies-mobile {
     position: relative;
     width: 17vw;
@@ -685,7 +701,7 @@ a:hover {
     height: 90vh;
     background-color: #6e9db7;
     position: relative;
-    top: 8vh;
+    top: 16vh;
     margin: 2% 10%;
     -webkit-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
