@@ -267,50 +267,36 @@ a:hover {
   #talents {
     top: 245vh;
     width: 100%;
-    height: 150vh;
+    height: 130vh;
     position: absolute; }
   #skills-left {
     width: 20vw;
     height: 62vh;
     background: white;
     position: absolute;
-    top: 70vh;
+    top: 50vh;
     left: 5vw;
     -webkit-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75); }
-  #link-left {
-    background: #222;
-    width: 18vw;
-    height: 0.7vh;
-    top: 80vh;
-    position: absolute;
-    left: 25vw; }
   #skills-middle {
     width: 20vw;
     height: 62vh;
     border-radius: 15px;
     background: #6e9db7;
     position: absolute;
-    top: 70vh;
+    top: 50vh;
     left: 40vw;
     -webkit-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75); }
-  #link-right {
-    background: #222;
-    width: 18vw;
-    height: 0.7vh;
-    top: 120vh;
-    position: absolute;
-    right: 22vw; }
   #skills-right {
     width: 20vw;
     height: 62vh;
     border-radius: 15px;
     background: #6e9db7;
     position: absolute;
-    top: 70vh;
+    top: 50vh;
     left: 74vw;
     -webkit-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
@@ -361,7 +347,7 @@ a:hover {
     right: -5vw;
     padding-bottom: 1vh; }
   #port {
-    top: 395vh;
+    top: 380vh;
     width: 100%;
     height: 150vh;
     position: absolute; }
@@ -369,7 +355,7 @@ a:hover {
     width: 100%;
     height: 7vh;
     position: absolute;
-    top: 390vh;
+    top: 375vh;
     z-index: 1;
     background-color: #c77c03; }
   #port-header {
@@ -443,11 +429,13 @@ a:hover {
     height: auto; }
   .likes {
     position: relative;
-    width: 10vw;
+    width: 9vw;
     height: auto;
     display: inline-block;
     margin: 1%;
-    padding-top: 4%; }
+    padding-top: 4%;
+    padding-left: 3vw;
+    left: 1vw; }
   #speed {
     position: relative;
     width: 50vw;
@@ -470,23 +458,23 @@ a:hover {
   #holder {
     width: 10vw;
     height: 5vh;
-    position: relative;
+    position: absolute;
     display: inline-block;
-    left: 25vw;
-    top: 15vh; }
+    left: 5vw;
+    top: 4vh; }
   .contact {
-    width: 4vw;
+    width: 5vw;
     height: auto;
     display: inline-block; }
   .bottom-contact_container {
     margin: 0vw 4vw;
     padding: 0vw 2vw;
     color: white;
-    position: relative;
+    position: absolute;
     width: 25vw;
     height: auto;
-    left: 50vw;
-    top: -13vh;
+    left: 60vw;
+    top: 4vh;
     background-color: #1e8ea6;
     -webkit-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
@@ -539,7 +527,13 @@ a:hover {
     color: #222;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
-    transition: 0.5s; } }
+    transition: 0.5s; }
+  #thoughts {
+    color: white;
+    width: 15vw;
+    position: absolute;
+    left: 30vw;
+    top: 15vh; } }
 
 /*mobile version*/
 @media screen and (min-width: 180px) and (max-width: 1050px) {
