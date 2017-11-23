@@ -89,30 +89,36 @@
     </div>
     <div id="interest" class="no-desktop">
         <div class="image-container2">
-            <img src="img/A%20random%20fox.jpg" data-lightbox="artwork" class="work2">    
+            <img src="img/A%20random%20fox.jpg" data-lightbox="artwork" class="work2" onclick="onClick(this)" style="cursor:pointer">    
         </div>
         <div class="image-container2" id="video-container">
-            <video autoplay loop data-lightbox="artwork" class="work2" id="speed">
+            <video autoplay loop data-lightbox="artwork" class="work2" id="speed" onclick="onClick(this)" style="cursor:pointer">
                 <source src="img/speed.mp4" type="video/mp4">
             </video>
         </div>
         <div class="image-container">
-           <img src="img/doughnut.jpg" data-lightbox="artwork" class="work"> 
+           <img src="img/doughnut.jpg" data-lightbox="artwork" class="work"onclick="onClick(this)" style="cursor:pointer"> 
         </div>
         <div class="image-container">
-            <img src="img/tree.JPG" data-lightbox="artwork" class="work">
+            <img src="img/tree.JPG" data-lightbox="artwork" class="work"onclick="onClick(this)" style="cursor:pointer">
         </div>
         <div class="image-container">
-            <img src="img/8-bit.JPG" data-lightbox="artwork" class="work">
+            <img src="img/8-bit.JPG" data-lightbox="artwork" class="work"onclick="onClick(this)" style="cursor:pointer">
         </div>
         <div class="image-container" id="snow">
-            <img src="img/snow.JPG" data-lightbox="artwork" class="work">
+            <img src="img/snow.JPG" data-lightbox="artwork" class="work"onclick="onClick(this)" style="cursor:pointer">
         </div>
         <div class="image-container" id="rebel">
-            <img src="img/rebelic-catalog.jpg" data-lightbox="artwork" class="work" >
+            <img src="img/rebelic-catalog.jpg" data-lightbox="artwork" class="work" onclick="onClick(this)" style="cursor:pointer">
         </div>
         <div class="image-container">
-            <img src="img/A%20random%20lion.jpg" data-lightbox="artwork" class="work">
+            <img src="img/A%20random%20lion.jpg" data-lightbox="artwork" class="work" onclick="onClick(this)" style="cursor:pointer">
+        </div>
+        <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+            <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+            <div class="w3-modal-content w3-animate-zoom">
+                <img id="img01" style="width:100%">
+            </div>
         </div>
     </div>
     <div id="hobby">

@@ -555,7 +555,9 @@ a:hover {
     width: 15vw;
     position: absolute;
     left: 30vw;
-    top: 15vh; } }
+    top: 15vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px; } }
 
 /*mobile version*/
 @media screen and (min-width: 180px) and (max-width: 1050px) {
