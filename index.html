@@ -85,34 +85,42 @@
 <div id="port" class="parallax-window no-desktop" data-parallax="scroll" data-z-index="0" data-image-src="img/bottom.png"></div>
 <div id="port">
     <div id="video">
-        <video></video>
+        <video controls loop id="show">
+            <source src="img/Showreel.mp4" type="video/mp4">
+        </video>
     </div>
     <div id="interest" class="no-desktop">
         <div class="image-container2">
-            <img src="img/A%20random%20fox.jpg" data-lightbox="artwork" class="work2">    
+            <img src="img/A%20random%20fox.jpg" data-lightbox="artwork" class="work2" onclick="onClick(this)" style="cursor:pointer">    
         </div>
         <div class="image-container2" id="video-container">
-            <video autoplay loop data-lightbox="artwork" class="work2" id="speed">
+            <video autoplay loop data-lightbox="artwork" class="work2" id="speed" onclick="onClick(this)" style="cursor:pointer">
                 <source src="img/speed.mp4" type="video/mp4">
             </video>
         </div>
         <div class="image-container">
-           <img src="img/doughnut.jpg" data-lightbox="artwork" class="work"> 
+           <img src="img/doughnut.jpg" data-lightbox="artwork" class="work"onclick="onClick(this)" style="cursor:pointer"> 
         </div>
         <div class="image-container">
-            <img src="img/tree.JPG" data-lightbox="artwork" class="work">
+            <img src="img/tree.JPG" data-lightbox="artwork" class="work"onclick="onClick(this)" style="cursor:pointer">
         </div>
         <div class="image-container">
-            <img src="img/8-bit.JPG" data-lightbox="artwork" class="work">
+            <img src="img/8-bit.JPG" data-lightbox="artwork" class="work"onclick="onClick(this)" style="cursor:pointer">
         </div>
         <div class="image-container" id="snow">
-            <img src="img/snow.JPG" data-lightbox="artwork" class="work">
+            <img src="img/snow.JPG" data-lightbox="artwork" class="work"onclick="onClick(this)" style="cursor:pointer">
         </div>
         <div class="image-container" id="rebel">
-            <img src="img/rebelic-catalog.jpg" data-lightbox="artwork" class="work" >
+            <img src="img/rebelic-catalog.jpg" data-lightbox="artwork" class="work" onclick="onClick(this)" style="cursor:pointer">
         </div>
         <div class="image-container">
-            <img src="img/A%20random%20lion.jpg" data-lightbox="artwork" class="work">
+            <img src="img/A%20random%20lion.jpg" data-lightbox="artwork" class="work" onclick="onClick(this)" style="cursor:pointer">
+        </div>
+        <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+            <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+            <div class="w3-modal-content w3-animate-zoom">
+                <img id="img01" style="width:100%">
+            </div>
         </div>
     </div>
     <div id="hobby">
@@ -127,8 +135,8 @@
     <div id="holder">
         <img src="img/gmail.png" class="contact" id="mail">
         <img src="img/youtube.png" class="contact" id="youtube">
-        <img src="img/insta.png" class="contact" id="insta">
-        <img src="img/tweet.png" class="contact" id="twitter">
+        <a href="https://www.instagram.com/lostmonke/"><img src="img/insta.png" class="contact" id="insta"></a>
+        <a href="https://twitter.com/joshthebro2"><img src="img/tweet.png" class="contact" id="twitter"></a>
     </div>
     <p id="thoughts">If we have fingers with finger tips and we have toes but don't have toe tips how can we still tip-toe? - anon</p>
     <div class="bottom-contact_container no-desktop">
