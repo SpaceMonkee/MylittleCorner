@@ -226,7 +226,7 @@ a:hover {
     width: auto;
     position: absolute;
     top: 5vh;
-    left: 43vw;
+    left: 43.5vw;
     z-index: 2; }
   #timespine {
     height: 120vh;
@@ -423,7 +423,7 @@ a:hover {
     width: 8vw;
     height: 16vh;
     position: relative;
-    background-color: chocolate;
+    background-color: white;
     margin: 3%;
     top: 13vh;
     display: inline-block; }
@@ -435,7 +435,7 @@ a:hover {
     width: 8vw;
     height: 16vh;
     position: relative;
-    background-color: chocolate;
+    background-color: white;
     margin: 3%;
     margin-right: 5%;
     top: 10vh;
