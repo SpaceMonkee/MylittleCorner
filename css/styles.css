@@ -165,7 +165,7 @@ a:hover {
     height: 110vh; }
   #me {
     width: 25vw;
-    height: 50vh;
+    height: auto;
     position: absolute;
     left: 65vw;
     border-radius: 100%;
@@ -219,14 +219,14 @@ a:hover {
     font-family: 'Audiowide', cursive;
     font-size: 32px;
     top: 1vh;
-    margin-left: 18vw;
+    margin-left: 30vw;
     margin-right: 2vw; }
   #space {
     height: 15vh;
     width: auto;
     position: absolute;
     top: 5vh;
-    left: 44vw;
+    left: 44.15vw;
     z-index: 2; }
   #timespine {
     height: 120vh;
@@ -241,28 +241,40 @@ a:hover {
     left: 10vw;
     position: absolute;
     top: 23vh;
-    width: 33%; }
+    width: 33%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 18px; }
   #history2 {
     font-family: 'PT Mono', monospace;
     text-align: left;
     left: 58vw;
     position: absolute;
     top: 45vh;
-    width: 33%; }
+    width: 33%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 18px; }
   #history3 {
     font-family: 'PT Mono', monospace;
     text-align: left;
     left: 10vw;
     position: absolute;
     top: 77vh;
-    width: 33%; }
+    width: 33%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 18px; }
   #history4 {
     font-family: 'PT Mono', monospace;
     text-align: left;
     left: 58vw;
     position: absolute;
     top: 95vh;
-    width: 33%; }
+    width: 33%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 18px; }
   /*skill columns*/
   #talents {
     top: 245vh;
@@ -272,7 +284,7 @@ a:hover {
   #skills-left {
     width: 20vw;
     height: 62vh;
-    background: white;
+    background: #c77c03;
     position: absolute;
     top: 50vh;
     left: 5vw;
@@ -282,8 +294,7 @@ a:hover {
   #skills-middle {
     width: 20vw;
     height: 62vh;
-    border-radius: 15px;
-    background: #6e9db7;
+    background: #c77c03;
     position: absolute;
     top: 50vh;
     left: 40vw;
@@ -293,8 +304,7 @@ a:hover {
   #skills-right {
     width: 20vw;
     height: 62vh;
-    border-radius: 15px;
-    background: #6e9db7;
+    background: #c77c03;
     position: absolute;
     top: 50vh;
     left: 74vw;
@@ -325,21 +335,27 @@ a:hover {
     font-size: 32px;
     position: relative;
     top: 1vh;
-    margin-left: 28vw;
+    margin-left: 35vw;
     margin-right: 2vw; }
   #skills {
     position: relative;
     top: 17vh;
     font-family: 'PT Mono', monospace;
     margin-left: 5vw;
-    margin-right: 5vw; }
+    margin-right: 5vw;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 18px; }
   #skills2 {
     position: relative;
     top: 20vh;
     font-family: 'PT Mono', monospace;
     margin-left: 5vw;
     margin-right: 5vw;
-    margin-top: 2vh; }
+    margin-top: 2vh;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 18px; }
   .code {
     width: 10vw;
     height: auto;
@@ -390,11 +406,12 @@ a:hover {
     box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75); }
   #hobby {
     position: relative;
-    background-color: #6e9db7;
+    background-color: #c77c03;
     border-radius: 0px 0px 15px 0px;
     left: 40vw;
     width: 45vw;
     height: 30vh;
+    font-family: 'Montserrat', sans-serif;
     top: -65vh;
     -webkit-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
@@ -478,16 +495,19 @@ a:hover {
     background-color: #1e8ea6;
     -webkit-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75); }
+    box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
+    font-family: 'Montserrat', sans-serif; }
   .bottom-contact_container {
     color: white; }
   .subfooter_container h2 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
-    padding: 5px 0px; }
+    padding: 5px 0px;
+    left: 6vw; }
   .bottom-contact_container p {
     color: rgba(255, 255, 255, 0.8);
-    margin: 0.5vw; }
+    margin: 0.5vw;
+    font-family: 'Montserrat', sans-serif; }
   .bottom-contact_container .contact_name-input {
     padding: 0.3vw;
     color: white;
@@ -516,18 +536,20 @@ a:hover {
     -webkit-transition: 0.2s all ease;
     -o-transition: 0.2s all ease;
     transition: 0.2s all ease;
-    left: 8vw;
+    left: 6vw;
     position: relative;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
-    transition: 0.5s; }
+    transition: 0.5s;
+    font-family: 'Montserrat', sans-serif; }
   .bottom-contact_container .contact_submit-input:hover {
     background-color: #f0f0f0;
     border: 1px solid #222;
     color: #222;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
-    transition: 0.5s; }
+    transition: 0.5s;
+    font-family: 'Montserrat', sans-serif; }
   #thoughts {
     color: white;
     width: 15vw;
