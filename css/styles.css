@@ -226,7 +226,11 @@ a:hover {
     width: auto;
     position: absolute;
     top: 5vh;
+<<<<<<< HEAD
     left: 43vw;
+=======
+    left: 43.5vw;
+>>>>>>> f010585727930ae63871776efe87289c7d36189b
     z-index: 2; }
   #timespine {
     height: 120vh;
@@ -410,6 +414,10 @@ a:hover {
   #hobby {
     position: relative;
     background-color: #c77c03;
+<<<<<<< HEAD
+=======
+    border-radius: 0px 0px 15px 0px;
+>>>>>>> f010585727930ae63871776efe87289c7d36189b
     left: 40vw;
     width: 45vw;
     height: 30vh;
