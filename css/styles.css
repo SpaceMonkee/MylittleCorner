@@ -219,18 +219,14 @@ a:hover {
     font-family: 'Audiowide', cursive;
     font-size: 32px;
     top: 1vh;
-    margin-left: 30vw;
+    margin-left: 20vw;
     margin-right: 2vw; }
   #space {
     height: 15vh;
     width: auto;
     position: absolute;
     top: 5vh;
-<<<<<<< HEAD
-    left: 43vw;
-=======
-    left: 43.5vw;
->>>>>>> f010585727930ae63871776efe87289c7d36189b
+    left: 44vw;
     z-index: 2; }
   #timespine {
     height: 120vh;
@@ -339,7 +335,7 @@ a:hover {
     font-size: 32px;
     position: relative;
     top: 1vh;
-    margin-left: 35vw;
+    margin-left: 28vw;
     margin-right: 2vw; }
   #skills {
     position: relative;
@@ -414,10 +410,6 @@ a:hover {
   #hobby {
     position: relative;
     background-color: #c77c03;
-<<<<<<< HEAD
-=======
-    border-radius: 0px 0px 15px 0px;
->>>>>>> f010585727930ae63871776efe87289c7d36189b
     left: 40vw;
     width: 45vw;
     height: 30vh;
@@ -621,7 +613,8 @@ a:hover {
     top: 5vh; }
   .textbox-mobile {
     margin: 4% 2%;
-    position: relative; }
+    position: relative;
+    font-family: 'Montserrat', sans-serif; }
   #mobile-me {
     border-radius: 100%;
     background-color: white;
