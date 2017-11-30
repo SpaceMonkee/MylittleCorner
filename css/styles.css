@@ -164,7 +164,7 @@ a:hover {
   #banner {
     display: none; }
   .poster {
-    widths: 100%;
+    width: 100%;
     height: auto; }
   .container {
     top: -1vh;
