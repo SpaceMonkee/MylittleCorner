@@ -603,10 +603,18 @@ a:hover {
     width: 70vw;
     text-align: center;
     font-family: 'Montserrat', sans-serif; }
+  #HOM {
+    background-color: orange;
+    color: #000;
+    width: 50vw;
+    height: 20vh;
+    position: relative;
+    padding: 2%; }
   #mobile-time {
     width: 1vw;
     height: 50vh;
-    left: 5vw;
+    left: 25vw;
+    top: 380vh;
     position: absolute;
     background-color: #a1c8de; }
   .about-me {
