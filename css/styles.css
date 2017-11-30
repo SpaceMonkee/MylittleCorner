@@ -617,11 +617,25 @@ a:hover {
     -webkit-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75); }
+  #Interests {
+    background-color: orange;
+    color: #000;
+    width: 50vw;
+    height: auto;
+    position: relative;
+    padding: 2%;
+    left: 25vw;
+    top: 12vh;
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75); }
   #mobile-time {
     width: 1vw;
     height: 100vh;
     left: 15vw;
-    top: 380vh;
+    top: 400vh;
     position: absolute;
     background-color: #a1c8de; }
   .about-me {
@@ -750,6 +764,20 @@ a:hover {
     width: 17vw;
     height: auto;
     margin-left: 2vw; }
+  #Portfolio-mobile {
+    background-color: orange;
+    color: #000;
+    width: 70vw;
+    height: auto;
+    position: relative;
+    padding: 2%;
+    left: 15vw;
+    top: 15vh;
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 44px -7px rgba(0, 0, 0, 0.75); }
   #port-mobile {
     width: 80vw;
     height: 90vh;
@@ -784,8 +812,8 @@ a:hover {
   #footer {
     border-top: orange solid 2px;
     background-color: #222;
-    position: fixed;
-    top: 90vh;
+    position: absolute;
+    top: 550vh;
     height: 10vh;
     width: 100%; }
   #holder {
