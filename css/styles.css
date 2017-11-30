@@ -603,14 +603,20 @@ a:hover {
     width: 70vw;
     text-align: center;
     font-family: 'Montserrat', sans-serif; }
+  #mobile-time {
+    width: 1vw;
+    height: 50vh;
+    left: 5vw;
+    position: absolute;
+    background-color: #a1c8de; }
   .about-me {
-    left: 15vw;
+    left: 40vw;
     margin-top: 6%;
-    width: 70vw;
-    height: 30vh;
+    width: 50vw;
+    height: 35vh;
     background-color: #6e9db7;
     position: relative;
-    top: 5vh; }
+    top: 10vh; }
   .textbox-mobile {
     margin: 4% 2%;
     position: relative;
