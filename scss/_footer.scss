@@ -1,20 +1,20 @@
 #footer{
-    background-color: #222;
+    background-color: #0d3842;
     position: absolute;
     top: 510vh;
     height: 45vh;
     width: 100%;
 }
 #holder{
-    width: 15vw;
-    height: auto;
-    position: relative;
+    width: 10vw;
+    height: 5vh;;
+    position: absolute;
     display: inline-block;
-    left: 6vw;
-    top: 10vh;
+    left: 5vw;
+    top: 4vh;
 }
 .contact{
-    width: 6vw;
+    width: 5vw;
     height: auto;
     display: inline-block;
 }
@@ -22,36 +22,42 @@
     margin: 0vw 4vw;
     padding: 0vw 2vw;
     color: white;
-    position: relative;
-    width: 30vw;
+    position: absolute;
+    width: 25vw;
     height: auto;
     left: 60vw;
-    top: -18vh;
-    background-color: #484848;
+    top: 4vh;
+    background-color: #1e8ea6;
+    -webkit-box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
+    font-family: 'Montserrat', sans-serif;
 }
 .bottom-contact_container {
     color: white;
 }
 .subfooter_container h2 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     padding: 5px 0px;
+    left: 6vw;
 }
 .bottom-contact_container p {
     color: rgba(255, 255, 255, 0.8);
-    margin: 0.5w;
+    margin: 0.5vw;
+    font-family: 'Montserrat', sans-serif;
 }
 .bottom-contact_container .contact_name-input {
     padding: 0.3vw;
     color: white;
     background-color: transparent;
     border: 1px solid white;
-    margin: 0.5w;
+    margin: 0.5vw;
     width: 100%;
 }
 .bottom-contact_container p {
     color: rgba(255, 255, 255, 0.8);
-    margin: 0.5w;
+    margin: 0.5vw;
 }
 .bottom-contact_container .contact_message-input {
     padding: 0.3vw;
@@ -70,4 +76,24 @@
     width: 40%;
     height: 5vh;
     transition: 0.2s all ease;
+    left: 6vw;
+    position: relative;
+    transition: 0.5s;
+    font-family: 'Montserrat', sans-serif;
+}
+.bottom-contact_container .contact_submit-input:hover{
+    background-color: rgba(240, 240, 240, 1);
+    border: 1px solid #222;
+    color: #222; 
+    transition: 0.5s;
+    font-family: 'Montserrat', sans-serif;
+}
+#thoughts{
+    color: white;
+    width: 15vw;
+    position: absolute;
+    left: 30vw;
+    top: 15vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
 }

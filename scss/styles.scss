@@ -2,19 +2,35 @@
 @import "nav.scss";
 /*body starts here*/
 .background{
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat-x;
+    background-size: contain;
 }
 @media screen and (min-width:1025px) and (max-width:1920px){
-#tagline{
+@import "paralax.scss";
+.tagline{
     position: relative;
-    top: 50vh;
+    top: 20vh;
     font-size: 28px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ff9d00;
+    width: 20vw;
+    margin-left: 4vw;
+    -webkit-box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
+}
+#name{
+    font-size: 8em;
+    position: relative;
+    top: 20vh;
+    text-decoration-style: double;
+    color: #ff9d00;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 4vw;
+    padding: 4% 0% 3% 0%;
 }
 #head{
-    background-color: aqua;
     position: absolute;
     top: 1vh;
     width: 100%;
@@ -22,14 +38,27 @@
 }
 #me{
     width: 25vw;
-    height: 50vh;
-    position: relative;
+    height: auto;
+    position: absolute;
     left: 65vw;
     border-radius: 100%;
     top: 25vh;
+    background-color: white;
     -webkit-box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
+}
+#skill-me{
+    width: 13vw;
+    height: auto;
+    position: relative;
+    left: 3.5vw;
+    border-radius: 100%;
+    top: 2vh;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);    
 }
 .mySlides {
     display:none;
@@ -59,60 +88,38 @@
 /*skill columns*/
 #talents{
     top: 245vh;
-    background-color: #9e3f4d;
     width: 100%;
-    height: 150vh;
+    height: 130vh;
     position: absolute;
-    z-index: -2;
 }
 #skills-left{
     width: 20vw;
     height: 62vh;
-    border-radius: 15px;
-    background: #b76e79;
+    background: #c77c03;
     position: absolute;
-    top: 70vh;
+    top: 50vh;
     left: 5vw;
-    display: inline-block;
     -webkit-box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
 }
-#link-left{
-    background: #222;
-    width: 18vw;
-    height: 0.7vh;
-    top: 80vh;
-    position: absolute;
-    left: 25vw;
-}
 #skills-middle{
     width: 20vw;
-    height: 50vh;
-    border-radius: 15px;
-    background: #b76e79;
+    height: 62vh;
+    background: #c77c03;
     position: absolute;
-    top: 77vh;
+    top: 50vh;
     left: 40vw;
     -webkit-box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
 }
-#link-right{
-    background: #222;
-    width: 18vw;
-    height: 0.7vh;
-    top: 120vh;
-    position: absolute;
-    right: 22vw;
-}
 #skills-right{
     width: 20vw;
     height: 62vh;
-    border-radius: 15px;
-    background: #b76e79;
+    background: #c77c03;
     position: absolute;
-    top: 70vh;
+    top: 50vh;
     left: 74vw;
     -webkit-box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 44px -7px rgba(0,0,0,0.75);
@@ -123,13 +130,14 @@
     font-family: 'Audiowide', cursive;
     text-align: center;
     position: relative;
-    top: 20vh;
+    top: 5vh;
 }
 .Adobe{
     width: 10vw;
-    height: 10vh;
+    height: auto;
     position: relative;
     left: 5vw;
+    padding-bottom: 1vh;
 }
 #title2{
     width: 100%;
@@ -137,7 +145,7 @@
     position: absolute;
     top: 240vh;
     z-index: 1;
-    background-color: rgb(121, 60, 69);
+    background-color: #c77c03;
  }
 #skills-header{
     font-family: 'Audiowide', cursive;
@@ -153,6 +161,9 @@
     font-family: 'PT Mono', monospace;
     margin-left: 5vw;
     margin-right: 5vw;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 18px;
 }
 #skills2{
     position: relative;
@@ -161,37 +172,17 @@
     margin-left: 5vw;
     margin-right: 5vw;
     margin-top: 2vh;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 18px;
     
-}
-#Ps{
-    margin-top: 2vh;
-}
-#Ai{
-    margin-top: 4vh;
-}
-#Pr{
-    margin-top: 6vh;
-}
-#Ae{
-    margin-top: 7vh;
 }
 .code{
     width: 10vw;
-    height: 10vh;
+    height: auto;
     position: relative;
     right: -5vw;
-}
-#html{
-    margin-top: 2vh;
-}
-#css{
-    margin-top: 4vh;
-}
-#js{
-    margin-top: 6vh;
-}
-#php{
-    margin-top: 7vh;
+    padding-bottom: 1vh;
 }
 @import 'portfolio.scss';
 @import 'footer.scss';
