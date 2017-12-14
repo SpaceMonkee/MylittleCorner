@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link id="styles" rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/lightbox.css">
+    <!--Back-up JS library DO NOT DELETE-->
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/lightbox.js"></script>
 </head>
 <body>
 <div class="no-desktop">
@@ -99,16 +104,16 @@
             </video>
         </div>
         <div class="image-container">
-           <img src="img/doughnut.jpg" data-lightbox="artwork" class="work"onclick="onClick(this)" style="cursor:pointer"> 
+           <img src="img/doughnut.jpg" data-lightbox="artwork" class="work" style="cursor:pointer"> 
         </div>
         <div class="image-container">
-            <img src="img/tree.JPG" data-lightbox="artwork" class="work"onclick="onClick(this)" style="cursor:pointer">
+            <img src="img/tree.JPG" data-lightbox="artwork" class="work" style="cursor:pointer">
         </div>
         <div class="image-container">
-            <img src="img/8-bit.JPG" data-lightbox="artwork" class="work"onclick="onClick(this)" style="cursor:pointer">
+            <img src="img/8-bit.JPG" data-lightbox="artwork" class="work" style="cursor:pointer">
         </div>
         <div class="image-container" id="snow">
-            <img src="img/snow.JPG" data-lightbox="artwork" class="work"onclick="onClick(this)" style="cursor:pointer">
+            <img src="img/snow.JPG" data-lightbox="artwork" class="work" style="cursor:pointer">
         </div>
         <div class="image-container" id="rebel">
             <img src="img/rebelic-catalog.jpg" data-lightbox="artwork" class="work" onclick="onClick(this)" style="cursor:pointer">
@@ -210,36 +215,30 @@
 <div id="history" class="no-mobile">
     <h1 id="HOM">History of me</h1>
     <div id="mobile-time"></div>
-    <p id="history5" class="no-mobile about-me">I worked at multiple retail stores but none of them gave me that "Yes this is where I want to be" feeling in my gut. After spending some time alone I figured that if I don't look for an opportunity it won't come to me. It just happened to be that as I was browsing the web for tertiary courses I came across Friends Of Design and immediately enrolled.</p>
+    <div class="no-mobile about-me">
+        <img src="img/Friends-of-Design.png" id="high3">
+        <p id="history5">I worked at multiple retail stores but none of them gave me that "Yes this is where I want to be" feeling in my gut. It just happened to be that as I was browsing the web for tertiary courses I came across Friends Of Design and immediately enrolled.</p>
+    </div>
     
-    <p id="history6" class="no-mobile about-me">Highschool life was chaotic, I was first at John Wycliffe but it closed down and in grade 10 I was moved to Groote Schuur Highschool. TThe first choice subject CAT because I just wanted to be around computers, diagnosing them and just messing around with them.</p>
+    <div class="no-mobile about-me">
+        <img src="img/JWCS-logo.png" class="high1">
+        <img src="img/high2.png" class="high1">
+        <p id="history6">Highschool life was chaotic, I was first at John Wycliffe but it closed down and in grade 10 I was moved to Groote Schuur Highschool. The first choice subject CAT because I just wanted to be around computers, diagnosing them and just messing around with them.</p>
+    </div>
     
     <p id="history7" class="no-mobile about-me">I attended Yeshua Christian Primary School and was the Deputy Headboy in Grade 7. Throughout my schooling year I always found myself drawn towards Technology and electronics and it's only gotten worse over the years.</p>
 </div>
 <div id="footer">
     <div id="holder">
-        <a href="#"><img src="img/gmail.png" class="contact" id="mail"></a>
+    <a href="#"><img src="img/gmail.png" class="contact" id="mail"></a>
     <a href="https://www.youtube.com/watch?v=3dhVeF4A8a8"><img src="img/youtube.png" class="contact" id="youtube"></a>
     <a href="https://www.instagram.com/lostmonke/"><img src="img/insta.png" class="contact" id="insta"></a>
     <a href="https://twitter.com/JoshTheBro2"><img src="img/tweet.png" class="contact" id="twitter"></a>
     </div>
 </div>
 </div>
-<!--Back-up JS library DO NOT DELETE-->
-    <script src="js/jquery-3.2.1.js"></script>
-    <script src="js/particles.js"></script>
-    <script src="js/parallax.js"></script>
-    <script src="js/lightbox.js"></script>
 <!--normal JS files-->
 <script src="js/querymain.js"></script>
 <script src="js/main.js"></script>
-<script src="js/particle-main.js"></script>
 </body>
 </html>
-<!-- particles.js container 
-<div id="particles-js"></div>-->
-
-<!-- stats - count particles 
-<div class="count-particles">
-  <span class="js-count-particles">--</span> particles
-</div>-->
