@@ -831,8 +831,6 @@ a:hover {
     height: 10vh;
     width: 100%; }
   #holder {
-    width: 100vw;
-    height: auto;
     position: relative;
     display: inline-block;
     left: 20vw;
