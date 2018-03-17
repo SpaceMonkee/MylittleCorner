@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Audiowide|PT+Mono|Montserrat" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link id="styles" rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/lightgallery.css">
 </head>
 <body>
@@ -89,50 +89,44 @@
             <source src="img/showreel2.mp4" type="video/mp4">
         </video>
     </div>
-    <div id="lightbox">
+    <div id="modal-launcher">
         <div id="interest" class="no-desktop">
-            <div class="image-container">
+            <div class="image-container" data-src="img1.jpg">
                 <a href="A fox">
                     <img src="img/A%20random%20fox.jpg" class="work" style="cursor:pointer">  
                 </a>
             </div>
-            <div class="image-container">
+            <div class="image-container" data-src="img2.jpg">
                 <a href="I was hungry">
                     <img src="img/doughnut.jpg" class="work" style="cursor:pointer"> 
                 </a>    
             </div>
-            <div class="image-container">
+            <div class="image-container" data-src="img3.jpg">
                 <a href="My earlier work">
                     <img src="img/tree.JPG" class="work" style="cursor:pointer">
                 </a>
             </div>
-            <div class="image-container">
+            <div class="image-container" data-src="img4.jpg">
                 <a href="I had an 8-bit phase">
                     <img src="img/8-bit.JPG" class="work" style="cursor:pointer">
                 </a>
             </div>
-            <div class="image-container" id="snow">
+            <div class="image-container" id="snow" data-src="img5.jpg">
                 <a href="My first Photoshoped image">
                     <img src="img/snow.JPG" class="work" style="cursor:pointer">
                 </a>
             </div>
-            <div class="image-container" id="rebel">
+            <div class="image-container" id="rebel" data-src="img6.jpg">
                 <a href="Catalog logo for a client">
                     <img src="img/rebelic-catalog.jpg" class="work" onclick="onClick(this)" style="cursor:pointer">
                 </a>
             </div>
-            <div class="image-container">
+            <div class="image-container" data-src="img7.jpg">
                 <a href="A random Lion appears!">
                     <img src="img/A%20random%20lion.jpg" class="work" onclick="onClick(this)" style="cursor:pointer">
                 </a>
             </div>
         </div>
-        <!--<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
-            <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
-            <div class="w3-modal-content w3-animate-zoom">
-                <img id="img01" style="width:100%">
-            </div>
-        </div>-->
     </div>
     <div id="hobby">
         <p>My hobbies include gaming, swimming, listening to music, reading and many more. I do like going out with friends however there are also times where I just want to lay on my bed with my headphones on and read a nice book while I listen too some chilled out music</p>
@@ -248,6 +242,7 @@
 <!--Back-up JS library DO NOT DELETE-->
 <script src="js/jquery-3.2.1.js"></script>
 <script src="js/parallax.js"></script>
+<script src="js/lg-thumbnail.js"></script>
 <script src="js/lightgallery.js"></script>
 <!--normal JS files-->
 <script src="js/querymain.js"></script>

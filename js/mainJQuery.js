@@ -1,6 +1,6 @@
 //Modal for Desktop
 
-$('#lightbox').lightGallery({
+$('#modal-launcher').lightGallery({
     selector: '.work',
     thumbnail:true,
 });
