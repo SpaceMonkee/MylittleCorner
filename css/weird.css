@@ -67,29 +67,29 @@ nav {
     opacity: 1;
     top: 0; }
   to {
-    opacity: 0;
-    top: -73px; } }
+    opacity: 1;
+    top: -20px; } }
 
 @keyframes collapse {
   from {
     opacity: 1;
     top: 0; }
   to {
-    opacity: 0;
-    top: -73px; } }
+    opacity: 1;
+    top: -20px; } }
 
 @-webkit-keyframes open {
   from {
-    opacity: 0;
-    top: -73px; }
+    opacity: 1;
+    top: -20px; }
   to {
     opacity: 1;
     top: 0; } }
 
 @keyframes open {
   from {
-    opacity: 0;
-    top: -73px; }
+    opacity: 1;
+    top: -20px; }
   to {
     opacity: 1;
     top: 0; } }

@@ -2,6 +2,7 @@ $color-primary-dark: #222;
 $color-accent: #ff9d00;
 $color-white: snow;
 $navBar-height: 73px;
+$navBar-height2: 20px;
 
 // Nav bar
 nav {
@@ -30,15 +31,15 @@ nav {
     top: 0;
   }
   to {
-    opacity: 0;
-    top: -$navBar-height;
+    opacity: 1;
+    top: -$navBar-height2;
   }
 }
 
 @keyframes open {
   from {
-    opacity: 0;
-    top: -$navBar-height;
+    opacity: 1;
+    top: -$navBar-height2;
   }
   to {
     opacity: 1;
