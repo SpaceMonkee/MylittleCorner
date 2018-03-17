@@ -89,32 +89,43 @@
             <source src="img/showreel2.mp4" type="video/mp4">
         </video>
     </div>
-    <div id="interest" class="no-desktop">
-        <div class="image-container2">
-            <img src="img/A%20random%20fox.jpg" data-lightbox="artwork" class="work2" onclick="onClick(this)" style="cursor:pointer">    
-        </div>
-        <div class="image-container2" id="video-container">
-            <video autoplay loop data-lightbox="artwork" class="work2" id="speed" onclick="onClick(this)" style="cursor:pointer">
-                <source src="img/speed.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="image-container">
-           <img src="img/doughnut.jpg" data-lightbox="artwork" class="work" style="cursor:pointer"> 
-        </div>
-        <div class="image-container">
-            <img src="img/tree.JPG" data-lightbox="artwork" class="work" style="cursor:pointer">
-        </div>
-        <div class="image-container">
-            <img src="img/8-bit.JPG" data-lightbox="artwork" class="work" style="cursor:pointer">
-        </div>
-        <div class="image-container" id="snow">
-            <img src="img/snow.JPG" data-lightbox="artwork" class="work" style="cursor:pointer">
-        </div>
-        <div class="image-container" id="rebel">
-            <img src="img/rebelic-catalog.jpg" data-lightbox="artwork" class="work" onclick="onClick(this)" style="cursor:pointer">
-        </div>
-        <div class="image-container">
-            <img src="img/A%20random%20lion.jpg" data-lightbox="artwork" class="work" onclick="onClick(this)" style="cursor:pointer">
+    <div id="lightbox">
+        <div id="interest" class="no-desktop">
+            <div class="image-container">
+                <a href="A fox">
+                    <img src="img/A%20random%20fox.jpg" class="work" style="cursor:pointer">  
+                </a>
+            </div>
+            <div class="image-container">
+                <a href="I was hungry">
+                    <img src="img/doughnut.jpg" class="work" style="cursor:pointer"> 
+                </a>    
+            </div>
+            <div class="image-container">
+                <a href="My earlier work">
+                    <img src="img/tree.JPG" class="work" style="cursor:pointer">
+                </a>
+            </div>
+            <div class="image-container">
+                <a href="I had an 8-bit phase">
+                    <img src="img/8-bit.JPG" class="work" style="cursor:pointer">
+                </a>
+            </div>
+            <div class="image-container" id="snow">
+                <a href="My first Photoshoped image">
+                    <img src="img/snow.JPG" class="work" style="cursor:pointer">
+                </a>
+            </div>
+            <div class="image-container" id="rebel">
+                <a href="Catalog logo for a client">
+                    <img src="img/rebelic-catalog.jpg" class="work" onclick="onClick(this)" style="cursor:pointer">
+                </a>
+            </div>
+            <div class="image-container">
+                <a href="A random Lion appears!">
+                    <img src="img/A%20random%20lion.jpg" class="work" onclick="onClick(this)" style="cursor:pointer">
+                </a>
+            </div>
         </div>
         <!--<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
             <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
@@ -150,7 +161,8 @@
         </form>
     </div>
 </div>
-</div> <!--desktop-->
+</div> 
+<!--desktop End-->
 
 <!--Mobile layout-->
 <div class="no-mobile">
@@ -233,12 +245,14 @@
     </div>
 </div>
 </div>
+<!--Back-up JS library DO NOT DELETE-->
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/parallax.js"></script>
+<script src="js/lightgallery.js"></script>
 <!--normal JS files-->
 <script src="js/querymain.js"></script>
 <script src="js/main.js"></script>
-<!--Back-up JS library DO NOT DELETE-->
-    <script src="js/jquery-3.2.1.js"></script>
-    <script src="js/parallax.js"></script>
-    <script src="js/lightgallery.min.js"></script>
+<script src="js/mainJQuery.js"></script>
+
 </body>
 </html>
