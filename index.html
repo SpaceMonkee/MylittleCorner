@@ -89,41 +89,44 @@
             <source src="img/showreel2.mp4" type="video/mp4">
         </video>
     </div>
-    <div id="modal-launcher">
+    <div id="lightgallery">
         <div id="interest" class="no-desktop">
-            <div class="image-container" data-src="img/A%20random%20fox.jpg">
-                <a href="A fox">
+            <div class="image-container" data-src="img/img1.jpg">
                     <img src="img/A%20random%20fox.jpg" class="work" style="cursor:pointer">  
-                </a>
             </div>
-            <div class="image-container" data-src="img2.jpg">
-                <a href="I was hungry">
+            <div class="image-container">
+                <a href="img/doughnut.jpg">
                     <img src="img/doughnut.jpg" class="work" style="cursor:pointer"> 
                 </a>    
             </div>
-            <div class="image-container" data-src="img3.jpg">
-                <a href="My earlier work">
+            <div class="image-container">
+                <a href="img/tree.JPG">
                     <img src="img/tree.JPG" class="work" style="cursor:pointer">
                 </a>
             </div>
-            <div class="image-container" data-src="img4.jpg">
-                <a href="I had an 8-bit phase">
+            <div class="image-container">
+                <a href="img/8-bit.JPG">
                     <img src="img/8-bit.JPG" class="work" style="cursor:pointer">
                 </a>
             </div>
-            <div class="image-container" id="snow" data-src="img5.jpg">
-                <a href="My first Photoshoped image">
+            <div class="image-container" id="snow">
+                <a href="img/snow.JPG">
                     <img src="img/snow.JPG" class="work" style="cursor:pointer">
                 </a>
             </div>
-            <div class="image-container" id="rebel" data-src="img6.jpg">
-                <a href="Catalog logo for a client">
-                    <img src="img/rebelic-catalog.jpg" class="work" onclick="onClick(this)" style="cursor:pointer">
+            <div class="image-container">
+                <a href="img/A%20random%20lion.jpg">
+                    <img src="img/A%20random%20lion.jpg" class="work" style="cursor:pointer">
                 </a>
             </div>
-            <div class="image-container" data-src="img7.jpg">
-                <a href="A random Lion appears!">
-                    <img src="img/A%20random%20lion.jpg" class="work" onclick="onClick(this)" style="cursor:pointer">
+            <div class="image-container">
+                <a href="img/Joy-cakev2-final-stamp.png">
+                    <img src="img/Joy-cakev2-final-stamp.png" class="work" style="cursor:pointer">
+                </a>
+            </div>
+            <div class="image-container" id="rebel">
+                <a href="img/rebelic-catalog.jpg" alt="catalog logo for client">
+                    <img src="img/rebelic-catalog.jpg" class="work" style="cursor:pointer">
                 </a>
             </div>
         </div>
@@ -239,16 +242,25 @@
     </div>
 </div>
 </div>
-<!--Back-up JS library DO NOT DELETE-->
+<!--JS library DO NOT DELETE-->
 <script src="js/jquery-3.2.1.js"></script>
 <script src="js/parallax.js"></script>
 <script src="js/lightgallery.js"></script>
+<!--Light Gallery Plug-ins-->
 <script src="js/lg-thumbnail.js"></script>
 <script src="js/lg-fullscreen.js"></script>
 <!--normal JS files-->
 <script src="js/querymain.js"></script>
 <script src="js/main.js"></script>
-<script src="js/mainJQuery.js"></script>
+<script type="text/javascript">
+
+$(Document).ready(function(){
+    $('#lightgallery').lightGallery({
+        selector: '.work',
+        thumbnail:true,
+    });             
+});
+</script>
 
 </body>
 </html>
