@@ -426,12 +426,13 @@ a:hover {
     height: 16vh;
     position: relative;
     background-color: white;
-    margin: 3%;
-    top: 13vh;
+    margin: 0;
+    top: 10vh;
     display: inline-block; }
   .work {
     position: relative;
-    width: 100%;
+    top: 15vh;
+    width: 30%;
     height: auto; }
   .image-container2 {
     width: 8vw;
