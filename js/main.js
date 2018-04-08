@@ -60,3 +60,9 @@ function upAction() {
 window.addEventListener("scroll", function() {
   scrollDetect(homeAction, downAction, upAction);
 });
+
+// Change theme
+
+function swapstylesheet(sheet){
+    document.getElementById('styles').setAttribute('href', sheet);
+}
